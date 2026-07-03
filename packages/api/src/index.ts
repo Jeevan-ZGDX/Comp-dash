@@ -1,0 +1,6 @@
+export { apiClient } from './client'
+export { useLogin, useProfile, useUpdateProfile, useUpdateNotificationPreferences, useUpdateLanguage, useLogout } from './hooks/useAuth'
+export { useCompetitions, useCompetition, useUpcomingDeadlines, useTrendingCompetitions, useSearchCompetitions } from './hooks/useCompetitions'
+export { useRegistrations, useRegistration, useRegistrationStats, useRegisterForCompetition, useVerifyRegistration, useDashboardStats, useAdminRegistrationStats } from './hooks/useRegistrations'
+export { useNotifications, useMarkNotificationRead, useMarkAllNotificationsRead, useUnreadNotificationCount } from './hooks/useNotifications'
+export { useBookmarks, useToggleBookmark, useIsBookmarked } from './hooks/useBookmarks'
